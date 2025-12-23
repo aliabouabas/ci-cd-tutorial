@@ -9,7 +9,7 @@
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "format": "prettier --write .",
-    "format:check": "prettier --check ."
+     "format:check": "prettier --check \"**/*\" --ignore \"**/.github/**\""
   },
   "devDependencies": {
     "eslint": "^9.39.2",
